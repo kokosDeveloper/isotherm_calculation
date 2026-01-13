@@ -1,0 +1,27 @@
+; тип силового центра:         LJ-Ar
+; название молекулы:           ARGON
+; название остатка:             ARGN
+; название "атома" в молекуле:    Ar
+
+[ defaults ]
+; nbfunc  comb-rule  
+       1          2        
+
+[ atomtypes ]
+;  name  at.num   mass    charge   ptype     sigma, nm       epsilon, kJ/mol   (for comb-rule=2: e&s with mean ar./mean geom.)
+  LJ-Ar      18  0.000     0.000       A   3.62300e-01          0.9298836e00
+
+[ moleculetype ]
+; molname	nrexcl
+ARGON   1
+
+[ atoms ]
+;   nr    type  resnr residue   atom   cgnr     charge       mass
+     1   LJ-Ar      1    ARGN     Ar      1     0.0000   39.94800
+
+[ system ]
+bulk lennard-jonesium, argon
+
+[ molecules ]
+; molecule name         nr.
+ARGON   1000
