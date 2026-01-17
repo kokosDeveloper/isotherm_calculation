@@ -1,4 +1,4 @@
-# This file was created Tue Jan 13 00:04:29 2026
+# This file was created Fri Jan 16 20:42:11 2026
 # Created by:
 #                :-) GROMACS - gmx energy, 2025.4-conda_forge (-:
 # 
@@ -9,7 +9,7 @@
 #   gmx energy -f 3/Ar_3.edr -s 3/Ar_3.tpr -o 3/Ar_3_result.xvg -b 50 -nmol 1000
 # gmx energy is part of G R O M A C S:
 #
-# Great Red Oystrich Makes All Chemists Sane
+# GROup of MAchos and Cynical Suckers
 #
 @    title "GROMACS Energies"
 @    xaxis  label "Time (ps)"

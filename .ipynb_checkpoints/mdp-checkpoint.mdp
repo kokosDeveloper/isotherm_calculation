@@ -1,0 +1,26 @@
+integrator          =  md 
+dt                  =  0.0025 ; измените под свою задачу!
+nsteps              =  2000000
+
+nstxout-compressed  =  1000
+comm-grps           =  System
+
+cutoff-scheme       =  Verlet
+rcoulomb            =  1.0869 ; = 3*sigma, измените под свою задачу!
+rvdw                =  1.0869 ; = 3*sigma, измените под свою задачу!
+disp-corr           =  EnerPres
+
+coulombtype         =  Cut-off
+
+tcoupl              =  v-rescale
+tc-grps             =  System
+tau-t               =  0.5
+ref-t               =  250.0 ; измените под свою задачу!
+
+pcoupl              =  no ; Parrinello-Rahman
+tau-p               =  1.0
+compressibility     =  4.5e-05
+ref-p               =  10.0
+
+gen-vel             =  yes ; no
+gen-temp            =  250 ; измените под свою задачу!
